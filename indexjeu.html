@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai&family=Kanit:wght@300&family=Nunito&family=Pridi:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    <title>Jeu JavaScript</title>
+</head>
+<body>
+    <div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+    </div>
+    <div id="container">
+
+        <h2>GUESS THE NUMBER</h2>
+        <h5>(Il se trouve entre 1 et 100)</h5>
+        <div class="guess_bar">
+            <input type="text" name="" id="guess" value="">
+        </div>
+        <input type="button" id="button" value="GUESS" onclick="bouton()">
+        
+        <div id="resultat">
+            <input type="text" id="result" value="" readonly>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
